@@ -1,0 +1,413 @@
+/*-------------------------------------------------
+/*SLIDE 1*/
+
+.slide1{
+    position:absolute;
+    top: -333px;
+    margin-left: 3.9%;
+    margin-right: auto;
+    background-color: rgb(255, 255, 255);
+    width: 92.13%;
+    height: 679px;
+    
+}
+
+        .slide1-bkg{
+            position: absolute;
+            margin: auto;
+            width: 100%;
+            height: 100%;
+            background-image: url(../img/home/slides/slide-1.jpg);
+            background-position:right;
+            background-size: cover;
+            z-index: 0;
+        }
+
+        .slide1-content{
+            position: absolute;
+            margin-top: 192px;
+        /*    margin-left: 13.45%;*/
+            right: 0;
+            margin-right: 67.64%;
+            height: 340px;
+            width: 340px;
+            z-index: 1;
+}
+
+                .slide1-categoria{
+                    font-size: 16px;
+                    font-weight: bold;
+                    text-transform: uppercase;
+                    letter-spacing: 2px;
+                    color:#87a018;
+                    margin-bottom: 30px;
+                }
+
+                .slide1-produto{
+                    font-size: 48px;
+                    font-weight: bold;
+                    color:#252525;
+                    margin-bottom: 30px;
+                    width: 320px;
+                }
+
+                .slide1-descricao{
+                    font-size: 18px;
+                    color:#636363;  
+                    margin-bottom: 50px;
+                }
+
+                .slide1-botao{
+                    background-color: #88c74a;
+                    Color: white;
+                    text-transform: uppercase;
+                    text-align: center;
+                    padding: 15px 35px 15px 35px;
+                    border-radius: 30px;
+                }
+
+@media (max-width: 1560px){
+    
+    .slide1-content{
+        left:0;
+        bottom: 0;
+        margin: 10px;
+    }
+}
+
+@media (max-width: 1325px){
+    
+    .slide1-content{
+        right: 0;
+        left:auto;
+        top:50px;
+        margin: 10px;
+        display:flex;
+        flex-direction: column;
+        align-items: flex-end
+    }
+    
+    .slide1-descricao{color:floralwhite; }  
+
+}
+
+@media (max-width: 400px){
+    .slide1-content{width: 90%;}
+    .slide1-produto{width: 100%}
+}
+
+/*-------------------------------------------------
+/*SLIDE 2*/
+
+.slide2{
+    position:absolute;
+    bottom: -276px;
+    margin-left: 3.9%;
+    margin-right: auto;
+    background-color: brown;
+    width: 91.97%;
+    height: 510px;   
+}
+
+        .slide2-bkg{
+            position: absolute;
+            margin: auto;
+            width: 100%;
+            height: 100%;
+            background-image: url(../img/home/slides/slide-2.jpg);
+            background-position:right;
+            background-size: cover;
+            z-index: 0;
+        }
+
+        .slide2-content{
+            display: flex;
+            flex-direction: column;
+            justify-content:space-between;
+            align-items: center;
+            position: absolute;
+            margin-top: 92px;
+            right:0;
+            margin-right: 980px;
+            height: 315px;
+            width: 430px;
+            z-index: 1;
+
+}
+
+                .slide2-titulo{
+                    font-size: 48px;
+                    font-weight: bold;
+                    color:#252525;
+                    margin-bottom: 30px;
+                    text-align: center;
+                }
+
+                .slide2-descricao{
+                    font-size: 18px;
+                    color:#636363;  
+                    text-align: center;
+                }
+
+                .slide2-contador{
+                    display:flex;
+                    margin: 10px;
+                    justify-content:space-between;
+                }
+                
+                        .slide2-contador-item{
+                            width:61px;
+                            height: 73px;
+                            margin: 9px;
+                            border-radius: 5px;
+                            background-color: white;
+                            
+}
+
+                                .slide2-contador-item p{
+                                        color:#636363;
+                                        font-size: 12px;
+                                        font-weight: bold;
+                                        text-align: center;
+                                        text-transform: uppercase;
+                                }
+
+                                .slide2-contador-item div{
+                                        color:#88c74a;
+                                        font-size: 30px;
+                                        font-weight: bold;
+                                        text-align: center;
+                                    margin-top: 8px;
+                                }
+                    
+                .slide2-botao{
+                    display: block;
+                    width:144px;
+                    position: relative;
+                    border-style: solid;
+                    border-color: white;
+                    color: white;
+                    text-transform: uppercase;
+                    text-align: center;
+                    padding: 15px 35px 15px 35px;
+                    border-radius: 30px;
+                }
+
+@media (max-width: 1530px){
+    
+    .slide2-content{
+        margin-right: 1px;
+    }
+}
+
+@media (max-width: 480px){
+    
+    .slide2-content{width: 100%;}
+    .slide2-contador-item{margin:3px; }
+}
+
+/*-------------------------------------------------
+/*SLIDE 3*/
+
+.slide3{
+    position:absolute;
+    display:flex;
+    flex-wrap: wrap;
+    width: 100%;
+    justify-content:center;
+    bottom: -125px;
+    z-index: 3;
+}
+
+        .slide3a{
+            position: relative;
+            width: 45.2%;
+            max-width: 868px;
+            height: 286px;
+            margin: 15px;
+
+        }
+
+
+            .slide3a-bkg{
+                position: absolute;
+                margin: auto;
+                width: 100%;
+                height: 100%;
+                background-color: RGBA(274, 202, 78,1);
+                background-image: url(../img/home/slides/slide-3a.jpg);
+                background-position:left;
+                background-size: cover;
+                z-index: 0;
+            }
+
+
+
+        .slide3b{
+            position: relative;
+            width: 45.2%;
+            max-width: 868px;
+            height: 286px;
+            margin: 15px;
+        }
+
+            .slide3b-bkg{
+                position: absolute;
+                margin: auto;
+                width: 100%;
+                height: 100%;
+                background-color: #df6f47;
+                background-image: url(../img/home/slides/slide-3b.jpg);
+                background-position:left;
+                background-size: cover;
+                z-index: 0;
+            }
+
+
+            .slide3-content{
+                display: flex;
+                flex-direction: column;
+                justify-content:space-between;
+                align-items:flex-start;
+                position: absolute;
+                margin-top: 60px;
+                margin-left: 480px;
+                width: 270px;
+                z-index: 1;
+    }
+
+                    .slide3-produto{
+                        font-size: 30px;
+                        color:#252525;
+                        width: 265px;
+                    }
+
+                    .slide3-descricao{
+                        font-size: 30px;
+                        font-weight: bold;
+                        color:#252525;  
+                    }
+
+                    .slide3-botao{
+                        border-color: #252525;
+                        border-style: solid;
+                        Color: #252525;
+                        font-weight: bold;
+                        text-transform: uppercase;
+                        text-align: center;
+                        padding: 15px 35px 15px 35px;
+                        border-radius: 30px;
+                        margin-top: 30px;
+                    }
+.slide3b *{color:white; border-color: white;}
+
+@media (max-width: 1660px){
+    .slide3-content{right:10px;}
+}
+
+@media (max-width: 1540px){
+    
+    .slide3{
+        flex-direction: column; 
+        align-items: center;margin:auto;
+        }
+    
+    .slide3a{width: 100%; margin: auto;}
+    .slide3b{width: 100%; margin: auto}
+    .mais-vendidos{padding-bottom: 520px;}
+}
+
+@media (max-width: 710px){
+    .slide3a-bkg{ background-image:none;}
+    .slide3b-bkg{ background-image:none;}
+    .slide3-content{
+    flex-direction: column;
+    align-items: center;
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%); } 
+    } 
+
+/*-------------------------------------------------
+/*SLIDE 4*/
+
+.slide4{
+    display: inline-flex;
+    position:relative;
+    bottom: 0px;
+    height: 450px;
+    width:100%;
+    background-image: url(../img/home/slides/slide-4.jpg);
+    background-position:center;
+    background-size: cover;
+    justify-content: space-between;
+    z-index: 1;
+}
+
+.slide4-left, .slide4-right{
+    width: 27.08%;
+    position: relative;
+}
+
+.slide4-left img, .slide4-right img{
+    width: 150px;
+    height: auto;
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%);
+    filter: invert(1);
+}
+
+.slide4-center{
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width:45.8%;}
+
+.slide4-center p{
+    font-size:154px;
+    font-weight: bold;
+    color:white;
+    margin-top:80px;
+}
+
+.slide4-center a{
+    background-color: #88c74a;
+    color: white;
+    text-transform: uppercase;
+    text-align: center;
+    font-weight: bold;
+    padding: 10px 25px 10px 25px;
+    border-radius: 30px;
+    margin-top:80px;
+}
+
+@media (max-width: 1500px){
+    
+    .slide4-left img{
+
+    top: 50%;
+    left: 10px;
+    margin-right: -50%;
+    transform: translate(0, -50%);}
+    
+     .slide4-right img{
+
+    top: 50%;
+    left:auto;
+    margin-right: 0;
+    transform: translate(0, -50%);}
+    
+}
+
+@media (max-width: 900px){
+    .slide4-left img, .slide4-right img{display: none;}
+    .slide4-center p{font-size:100px;}
+}

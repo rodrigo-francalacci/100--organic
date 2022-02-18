@@ -1,0 +1,46 @@
+/*-----------------------------*/
+/* RESET STYLES*/
+body, p, h1, ul, li, blockquote {
+    padding: 0px;
+    margin: 0px
+}
+
+
+li {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-size: 16px;
+    font-family: 'cera_proregular';  
+}
+
+
+body{
+    overflow-x: hidden;
+    overflow-y: visible;
+    width: 100%;
+    max-width: 1920px;
+    margin: auto;
+}
+
+body::-webkit-scrollbar {
+
+}
+
+:focus {
+outline: 0;
+}
+
+.item {
+
+}
+
+

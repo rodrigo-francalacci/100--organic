@@ -1,0 +1,337 @@
+/*
+* Prefixed by https://autoprefixer.github.io
+* PostCSS: v7.0.29,
+* Autoprefixer: v9.7.6
+* Browsers: last 4 version
+*/
+
+/*-----------------------------*/
+/* FOOTER*/
+
+footer ::-webkit-input-placeholder { /* Chrome/Opera/Safari */
+  color:white;
+}
+footer ::-moz-placeholder { /* Firefox 19+ */
+  color:white;
+}
+footer :-ms-input-placeholder { /* IE 10+ */
+  color:white;
+}
+footer :-moz-placeholder { /* Firefox 18- */
+  color:white;
+}
+
+
+
+.footer{
+    background-color: #efefef;
+
+    max-height: auto;
+    position: relative;
+    z-index: 1;
+    
+}
+
+.footer-itens{
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;  
+}
+
+.footer-entrega{
+    display: -webkit-inline-box;
+    display: -ms-inline-flexbox;
+    display: inline-flex;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    width: 100%;
+    max-width: 91.82%;
+    height: auto;
+    margin-top: 80px;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    background-color: white;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    justify-items: center;
+}
+
+
+.footer-entrega-item{
+        margin: 10px auto 10px auto;
+        -webkit-box-align: center;
+            -ms-flex-align: center;
+                align-items: center;
+        -webkit-box-pack: justify;
+            -ms-flex-pack: justify;
+                justify-content: space-between;
+        width: 24%;
+        min-width: 240px;
+}
+
+.footer-entrega-item-content{
+    display: block;
+}
+
+.footer-entrega-border{
+    height: 72px;
+    padding: 0.5px;
+    background-color: #efefef;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.footer-entrega-item img{
+    display: block;
+    margin: auto;
+    padding: 0px 0px 20px 0px;
+}
+
+.footer-entrega-item p{
+    text-align: center;
+}
+
+.footer-logos{
+    display:-webkit-inline-box;
+    display:-ms-inline-flexbox;
+    display:inline-flex;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    -ms-flex-line-pack: center;
+        align-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    justify-items: center;
+    padding-top: 80px;   
+    width: 100%;
+}
+
+.footer-logos img{
+    width: 100%;
+    max-width: 140px;
+    min-width: 122px;
+    height: auto;
+    margin: 15px;
+}
+
+
+.footer-about{
+    padding-top: 40px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+}
+
+.footer-about-email{
+    color: #025a20;
+    font-size: 16px;
+    font-weight: 600;
+}
+
+.footer-about-social{
+    display: -webkit-inline-box;
+    display: -ms-inline-flexbox;
+    display: inline-flex;
+    padding:10px;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+}
+
+.footer-about-social-item{
+    display: -webkit-inline-box;
+    display: -ms-inline-flexbox;
+    display: inline-flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    margin-left: 4px;
+    margin-right: 4px;
+    width: 42px;
+    height: 42px;
+    background-color: #dbe0e5; 
+    color: #404040;
+    border-radius: 100%;
+    -webkit-transition: .2s ease-out;
+    -o-transition: .2s ease-out;
+    transition: .2s ease-out;
+}
+
+.footer-about-social-item:hover{
+    background-color: #99cc33;
+    color: white;
+}
+   
+
+.footer-newsletter{
+    display: -webkit-inline-box;
+    display: -ms-inline-flexbox;
+    display: inline-flex;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    width: 100%;
+    color: white;
+    background-color: #025a20;
+    padding-left:19.53%;
+    padding-right:19.53%;
+    margin-top: 50px;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;   
+}
+
+.footer-newsletter > div{padding: 10px 0px 10px 0px;margin: 0px 10px 0px 10px }
+
+.footer-newsletter:first-child{display: block;}
+
+.footer-newsletter-text1{
+    font-size: 22px;
+    font-weight: bold;
+}
+
+.footer-newsletter-text2{}
+
+
+.footer-newsletter-inscrever{
+    display: -webkit-inline-box;
+    display: -ms-inline-flexbox;
+    display: inline-flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    width: 402px;
+}
+
+
+.footer-newsletter-emailfield{
+    height: 46px;
+    width: 67.75%;
+    max-width: 268px;
+    border-radius: 50px 0 0px 50px;
+    padding-left: 15px;
+    border-style: none;
+    background-color: #357b4d;
+    color:white;
+}
+
+.footer-newsletter-emailbutton{
+    display:inline-block;
+    width: 33.25%;
+    max-width: 133px;
+    text-align: center;
+    background-color: white;
+    color: #88c74a;
+    text-transform: uppercase;
+    height: 46px;
+    line-height: 46px;
+    border-radius: 0px 50px 50px 0px;
+    font-weight: bold;
+}
+
+.footer-copyright-bandeiras{
+    display: -webkit-inline-box;
+    display: -ms-inline-flexbox;
+    display: inline-flex;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    width: 100%;
+    color: #636363;
+    padding-left:calc(26.4% - 129px);
+    padding-right:calc(26.4% - 129px);
+    margin-top: 18px;
+    margin-bottom: 18px;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;   
+}
+
+.footer-copyright{
+    font-weight: bold;
+    margin: 0px 10px 0px 10px 
+}
+
+.footer-bandeiras{
+    width: 290px;
+    height: 27px;
+    margin: 0px 10px 0px 10px 
+}
+
+.background-img5{
+    
+    position: absolute;
+    bottom: 0px;
+    z-index: -1;
+    
+    -o-object-fit: none;
+    
+       object-fit: none;
+    -o-object-position: right;
+       object-position: right;
+    height:772px;
+    width: 15.72%;
+        
+}
+
+/*MEDIA FOOTER */
+
+@media (max-width: 1440px){
+    .footer-newsletter{-webkit-box-orient: vertical;-webkit-box-direction: normal;-ms-flex-direction: column;flex-direction: column;}
+    
+    .footer-newsletter-text1{text-align: center}
+}
+
+@media (max-width: 1180px){
+    .footer-copyright-bandeiras{-webkit-box-orient: vertical;-webkit-box-direction: normal;-ms-flex-direction: column;flex-direction: column;}
+    .footer-bandeiras{margin-top: 10px;}
+    
+    .footer-newsletter{
+    padding-left:0;
+    padding-right:0;
+    }
+}
+
+@media (max-width: 418px){
+    .footer-entrega{-webkit-box-orient: vertical;-webkit-box-direction: normal;-ms-flex-direction: column;flex-direction: column;}
+    .footer-entrega-item{min-width: 100%}
+    .footer-copyright-bandeiras{-webkit-box-orient: vertical;-webkit-box-direction: normal;-ms-flex-direction: column;flex-direction: column; margin-left: auto; margin-right: auto}
+    .footer-about-email{text-align: center;}
+    .footer-bandeiras{margin-top: 10px;}
+    .footer-newsletter{margin:18px auto auto auto}
+    .footer-newsletter-inscrever{-webkit-box-orient: vertical;-webkit-box-direction: normal;-ms-flex-direction: column;flex-direction: column; width: 100%}
+    .footer-newsletter-text2{text-align: center;}
+    .footer-newsletter > div{padding: 10px 0px 10px 0px;margin: 0px 0px 0px 0px }
+    .footer-newsletter-emailfield{border-radius: 50px;}
+    .footer-newsletter-emailbutton{
+        border-radius: 50px 50px 50px 50px;
+        margin-top: 10px;}
+
+    .footer-bandeiras{width: 100%; height: auto; padding: 0; margin: auto}
+    .footer-copyright{text-align: center; font-size: 14px; margin-bottom: 10px}
+    
+    
+}

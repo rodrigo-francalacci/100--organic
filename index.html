@@ -1,0 +1,726 @@
+<!DOCTYPE html>
+<html lang="en"> 
+  <head>
+    <title>100% Orgânicos - Importados da Roça</title>
+
+      
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial=scale=1, shrik-to-fit=no">
+    <meta name="description" content="100% Orgânicos - Importados da Roça...... descrição......">
+    <meta name="keywords" content="Orgânico,Natural,Sem Convervantes">
+    <meta name="author" content="Rodrigo Francalacci">
+    
+    <link rel="icon" href="organic-food.png">
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/fonte.css">
+    <link rel="stylesheet" href="css/header.css">
+    <link rel="stylesheet" href="css/home-main.css">
+    <link rel="stylesheet" href="css/home-slides.css">
+    <link rel="stylesheet" href="css/footer.css">
+    <link rel="stylesheet" href="css/home-background.css">
+
+
+    <script src="https://kit.fontawesome.com/338ee67036.js" crossorigin="anonymous"></script>
+      
+  </head>
+
+  <body> 
+
+
+    <header class="header">
+
+    	<div class="login-area">
+        <i class="fa fa-user" ></i> Login
+    	</div> <!-- end .login area -->
+
+    	<div class="logo">
+        <img alt="100% orgânico - importado da roça" src="img/header_&_footer/logo-100%25-organico.png">
+        </div> <!-- end .logo -->
+
+        <div class="search">
+
+	    	<div id="search-drop-categoria" class="search-drop-categoria">
+                <div class="selected-categoria"><p>Todas Categorias</p></div>
+                <i onclick="menu_categorias()" id="drop-menu-button" class="fas fa-chevron-down"></i>
+                <span class="separacao-search"></span>
+                <div id="categorias-menu" class="categorias-menu" style="display: none; opacity: 0">
+                    <a>Categoria 1</a>
+                    <a>Categoria 2</a>
+                    <a>Categoria 3</a>
+                    <a>Categoria 4</a> 
+                </div>
+	    	</div> <!-- end .search-drop-categoria -->
+            
+            
+
+	    	<span class="search-input">
+	        <input placeholder="Procurando algo?" class="busca-campo">
+	    	</span> <!-- end .search -input-->
+            
+
+            
+            <div class="search-button">
+            <i class="fa fa-search"></i>
+            </div>
+
+        </div> <!-- end .search --> 
+
+        <nav class="item navbar">
+        <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="empresa.html">Empresa</a></li>
+        <li><a href="produtos.html">Produtos</a></li>
+        <li><a href="detalhes.html">Blog</a></li>
+        <li><a href="contato.html">Contato</a></li>
+        </ul>
+        </nav> <!-- end .nav -->
+
+        <div class="item carrinho">
+            <span class="carrinho-contagem">
+            <i class="far fa-clipboard" ></i>
+            <!--<i class="fa" style="font-size:24px">&#xf07a;</i>-->
+            <span class='badge badge-warning' id='lblCartCount'> 5 </span>
+            </span>
+            R$ 150,00
+    	</div><!-- end .search -->
+                
+        
+
+    </header> <!-- end .header -->
+      
+    <div class="bkg-after-header"></div>  
+   
+      
+    <main>
+       
+        <div class="produtos">
+            
+            <img class="background-img1" alt="blueberry" src="img/home/background-1.jpg">
+            <img class="background-img2" alt="trigo" src="img/home/background-2.jpg">
+            <img class="background-img3" alt="grão de café" src="img/home/background-3.jpg"><!-- end .background-img3 -->        
+            
+                <div class="slide1">
+                    <div class="slide1-bkg"></div>
+                    <div class="slide1-content">
+                        <p class="slide1-categoria">Chocolates</p>
+                        <p class="slide1-produto">Chocolate 85% Cacau</p>
+                        <p class="slide1-descricao">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod </p>
+                        <a class="slide1-botao">Comprar</a>
+                    </div>
+                </div><!-- end of .slide1 -->
+            
+            
+            <div class="produtos-partner">
+                <div><img alt="low carb" src="img/home/partner/low-carb.svg"><p>Low carb</p></div>
+                <div><img alt="orgânico" src="img/home/partner/organico.svg"><p>Orgânico</p></div>
+                <div><img alt="vegan" src="img/home/partner/vegan.svg"><p>Vegan</p></div>
+                <div><img alt="paleo" src="img/home/partner/paleo.svg"><p>Paleo</p></div>
+                <div><img alt="sem glúten" src="img/home/partner/without-gluten.svg"><p>Sem Glúten</p></div>
+                <div><img alt="sem lactose" src="img/home/partner/sem-lactose.svg"><p>Sem Lactose</p></div>
+            </div>
+            
+            <h2>Nossos Produtos</h2>
+            
+            <div class="nav-interno">
+                <ul>
+                <li><a href="#">Bebidas</a></li>
+                <li><a href="#">Snaks</a></li>
+                <li><a href="#">Vitaminas</a></li>
+                <li><a href="#">Suplementos</a></li>
+                <li><a href="#">Outros</a></li>
+                </ul>
+            </div>
+            
+            <div class="produtos-lista">
+                <ul>
+                    
+                <li class="produtos-lista-item">
+                    <a class="produtos-lista-item-img" href="#">
+                    <img alt="Produto 1" src="img/home/nossos-produtos/produto-01.jpg">
+                    </a>
+                    <p class="produtos-lista-item-categoria">Categoria</p>
+                    <p class="produtos-lista-item-nome">Nome do Produto</p>
+                    <p class="produtos-lista-item-preco">R$ 30.00</p>
+                    <p class="produtos-lista-item-preco2">45.00</p>
+                    <div class="produtos-lista-item-hide">
+                    <div><i class="far fa-heart"></i></div>
+                    <div><i class="far fa-clipboard"></i></div>
+                    <div><i class="fas fa-random"></i></div>
+                    </div>
+                </li>
+                <li class="produtos-lista-item">
+                    <a class="produtos-lista-item-img" href="#">
+                    <img alt="Produto 2" src="img/home/nossos-produtos/produto-02.jpg">
+                    </a>
+                    <p class="produtos-lista-item-categoria">Categoria</p>
+                    <p class="produtos-lista-item-nome">Nome do Produto</p>
+                    <p class="produtos-lista-item-preco">R$ 30.00</p>
+                    <p class="produtos-lista-item-preco2">45.00</p>
+                    <div class="produtos-lista-item-hide">
+                    <div><i class="far fa-heart"></i></div>
+                    <div><i class="far fa-clipboard"></i></div>
+                    <div><i class="fas fa-random"></i></div>
+                    </div>
+                    
+                </li>
+                <li class="produtos-lista-item">
+                    <a class="produtos-lista-item-img" href="#">
+                    <img alt="Produto 3" src="img/home/nossos-produtos/produto-03.jpg">
+                    </a>
+                    <p class="produtos-lista-item-categoria">Categoria</p>
+                    <p class="produtos-lista-item-nome">Nome do Produto</p>
+                    <p class="produtos-lista-item-preco">R$ 30.00</p>
+                    <p class="produtos-lista-item-preco2">45.00</p>
+                    <div class="produtos-lista-item-hide">
+                    <div><i class="far fa-heart"></i></div>
+                    <div><i class="far fa-clipboard"></i></div>
+                    <div><i class="fas fa-random"></i></div>
+                    </div>
+                </li>
+                <li class="produtos-lista-item">
+                    <a class="produtos-lista-item-img" href="#">
+                    <img alt="Produto 4" src="img/home/nossos-produtos/produto-04.jpg">
+                    </a>
+                    <p class="produtos-lista-item-categoria">Categoria</p>
+                    <p class="produtos-lista-item-nome">Nome do Produto</p>
+                    <p class="produtos-lista-item-preco">R$ 30.00</p>
+                    <p class="produtos-lista-item-preco2">45.00</p>
+                    <div class="produtos-lista-item-hide">
+                    <div><i class="far fa-heart"></i></div>
+                    <div><i class="far fa-clipboard"></i></div>
+                    <div><i class="fas fa-random"></i></div>
+                    </div>
+                </li>
+                <li class="produtos-lista-item">
+                    <a class="produtos-lista-item-img" href="#">
+                    <img alt="Produto 5" src="img/home/nossos-produtos/produto-05.jpg">
+                    </a>
+                    <p class="produtos-lista-item-categoria">Categoria</p>
+                    <p class="produtos-lista-item-nome">Nome do Produto</p>
+                    <p class="produtos-lista-item-preco">R$ 30.00</p>
+                    <p class="produtos-lista-item-preco2">45.00</p>
+                    <div class="produtos-lista-item-hide">
+                    <div><i class="far fa-heart"></i></div>
+                    <div><i class="far fa-clipboard"></i></div>
+                    <div><i class="fas fa-random"></i></div>
+                    </div>
+                </li>
+                <li class="produtos-lista-item">
+                    <a class="produtos-lista-item-img" href="#">
+                    <img alt="Produto 6" src="img/home/nossos-produtos/produto-06.jpg">
+                    </a>
+                    <p class="produtos-lista-item-categoria">Categoria</p>
+                    <p class="produtos-lista-item-nome">Nome do Produto</p>
+                    <p class="produtos-lista-item-preco">R$ 30.00</p>
+                    <p class="produtos-lista-item-preco2">45.00</p>
+                    <div class="produtos-lista-item-hide">
+                    <div><i class="far fa-heart"></i></div>
+                    <div><i class="far fa-clipboard"></i></div>
+                    <div><i class="fas fa-random"></i></div>
+                    </div>
+                </li>
+                <li class="produtos-lista-item">
+                    <a class="produtos-lista-item-img" href="#">
+                    <img alt="Produto 7" src="img/home/nossos-produtos/produto-07.jpg">
+                    </a>
+                    <p class="produtos-lista-item-categoria">Categoria</p>
+                    <p class="produtos-lista-item-nome">Nome do Produto</p>
+                    <p class="produtos-lista-item-preco">R$ 30.00</p>
+                    <p class="produtos-lista-item-preco2">45.00</p>
+                    <div class="produtos-lista-item-hide">
+                    <div><i class="far fa-heart"></i></div>
+                    <div><i class="far fa-clipboard"></i></div>
+                    <div><i class="fas fa-random"></i></div>
+                    </div>
+                </li>
+                <li class="produtos-lista-item">
+                    <a class="produtos-lista-item-img" href="#">
+                    <img alt="Produto 8" src="img/home/nossos-produtos/produto-08.jpg">
+                    </a>
+                    <p class="produtos-lista-item-categoria">Categoria</p>
+                    <p class="produtos-lista-item-nome">Nome do Produto</p>
+                    <p class="produtos-lista-item-preco">R$ 30.00</p>
+                    <p class="produtos-lista-item-preco2">45.00</p>
+                    <div class="produtos-lista-item-hide">
+                    <div><i class="far fa-heart"></i></div>
+                    <div><i class="far fa-clipboard"></i></div>
+                    <div><i class="fas fa-random"></i></div>
+                    </div>
+                </li>
+                <li class="produtos-lista-item">
+                    <a class="produtos-lista-item-img" href="#">
+                    <img alt="Produto 9" src="img/home/nossos-produtos/produto-09.jpg">
+                    </a>
+                    <p class="produtos-lista-item-categoria">Categoria</p>
+                    <p class="produtos-lista-item-nome">Nome do Produto</p>
+                    <p class="produtos-lista-item-preco">R$ 30.00</p>
+                    <p class="produtos-lista-item-preco2">45.00</p>
+                    <div class="produtos-lista-item-hide">
+                    <div><i class="far fa-heart"></i></div>
+                    <div><i class="far fa-clipboard"></i></div>
+                    <div><i class="fas fa-random"></i></div>
+                    </div>
+                </li>
+                <li class="produtos-lista-item">
+                    <a class="produtos-lista-item-img" href="#">
+                    <img alt="Produto 10" src="img/home/nossos-produtos/produto-10.jpg">
+                    </a>
+                    <p class="produtos-lista-item-categoria">Categoria</p>
+                    <p class="produtos-lista-item-nome">Nome do Produto</p>
+                    <p class="produtos-lista-item-preco">R$ 30.00</p>
+                    <p class="produtos-lista-item-preco2">45.00</p>
+                    <div class="produtos-lista-item-hide">
+                    <div><i class="far fa-heart"></i></div>
+                    <div><i class="far fa-clipboard"></i></div>
+                    <div><i class="fas fa-random"></i></div>
+                    </div>
+                </li>
+                <li class="produtos-lista-item">
+                    <a class="produtos-lista-item-img" href="#">
+                    <img alt="Produto 11" src="img/home/nossos-produtos/produto-11.jpg">
+                    </a>
+                    <p class="produtos-lista-item-categoria">Categoria</p>
+                    <p class="produtos-lista-item-nome">Nome do Produto</p>
+                    <p class="produtos-lista-item-preco">R$ 30.00</p>
+                    <p class="produtos-lista-item-preco2">45.00</p>
+                    <div class="produtos-lista-item-hide">
+                    <div><i class="far fa-heart"></i></div>
+                    <div><i class="far fa-clipboard"></i></div>
+                    <div><i class="fas fa-random"></i></div>
+                    </div>
+                </li>
+                <li class="produtos-lista-item">
+                    <a class="produtos-lista-item-img" href="#">
+                    <img alt="Produto 12" src="img/home/nossos-produtos/produto-12.jpg">
+                    </a>
+                    <p class="produtos-lista-item-categoria">Categoria</p>
+                    <p class="produtos-lista-item-nome">Nome do Produto</p>
+                    <p class="produtos-lista-item-preco">R$ 30.00</p>
+                    <p class="produtos-lista-item-preco2">45.00</p>
+                    <div class="produtos-lista-item-hide">
+                    <div><i class="far fa-heart"></i></div>
+                    <div><i class="far fa-clipboard"></i></div>
+                    <div><i class="fas fa-random"></i></div>
+                    </div>
+                </li>
+
+
+                </ul>  
+            
+            </div><!-- end .produtos-lista -->
+            
+            
+            <div class="slide2">
+                <div class="slide2-bkg"></div>
+                <div class="slide2-content">
+                    <p class="slide2-titulo">Oferta da Semana</p>
+                    <p class="slide2-descricao">Lorem ipsum dolor sit amet, consectetur adipisicing elitt  
+incididunt ut labore</p>
+                    <div class="slide2-contador">
+                        <div class="slide2-contador-item"><div>02</div><p>dias</p></div>
+                        <div class="slide2-contador-item"><div>21</div><p>hrs</p></div>
+                        <div class="slide2-contador-item"><div>44</div><p>mins</p></div>
+                        <div class="slide2-contador-item"><div>50</div><p>segs</p></div>
+                    </div>
+                    <a class="slide2-botao">Comprar</a>
+                </div>
+            </div>
+            
+        </div><!-- end .produtos -->
+        
+        <div class="mais-vendidos">
+            
+            <img class="background-img4a" alt="amêndoa" src="img/home/background-4a.jpg"><!-- end .background-img4a -->
+                        
+            <h2>Mais Vendidos</h2>
+            
+            
+            <div class="nav-interno">
+                <ul>
+                <li><a href="#">Bebidas</a></li>
+                <li><a href="#">Snaks</a></li>
+                <li><a href="#">Vitaminas</a></li>
+                <li><a href="#">Suplementos</a></li>
+                <li><a href="#">Outros</a></li>
+                </ul>
+            </div>
+            
+            <div class="produtos-lista">
+                <ul>
+                    
+                <li class="produtos-lista-item">
+                    <a class="produtos-lista-item-img" href="#">
+                    <img alt="Produto 1" src="img/home/nossos-produtos/produto-01.jpg">
+                    </a>
+                    <p class="produtos-lista-item-categoria">Categoria</p>
+                    <p class="produtos-lista-item-nome">Nome do Produto</p>
+                    <p class="produtos-lista-item-preco">R$ 30.00</p>
+                    <p class="produtos-lista-item-preco2">45.00</p>
+                    <div class="produtos-lista-item-hide">
+                    <div><i class="far fa-heart"></i></div>
+                    <div><i class="far fa-clipboard"></i></div>
+                    <div><i class="fas fa-random"></i></div>
+                    </div>
+                </li>
+                <li class="produtos-lista-item">
+                    <a class="produtos-lista-item-img" href="#">
+                    <img alt="Produto 2" src="img/home/nossos-produtos/produto-02.jpg">
+                    </a>
+                    <p class="produtos-lista-item-categoria">Categoria</p>
+                    <p class="produtos-lista-item-nome">Nome do Produto</p>
+                    <p class="produtos-lista-item-preco">R$ 30.00</p>
+                    <p class="produtos-lista-item-preco2">45.00</p>
+                    <div class="produtos-lista-item-hide">
+                    <div><i class="far fa-heart"></i></div>
+                    <div><i class="far fa-clipboard"></i></div>
+                    <div><i class="fas fa-random"></i></div>
+                    </div>
+                    
+                </li>
+                <li class="produtos-lista-item">
+                    <a class="produtos-lista-item-img" href="#">
+                    <img alt="Produto 3" src="img/home/nossos-produtos/produto-03.jpg">
+                    </a>
+                    <p class="produtos-lista-item-categoria">Categoria</p>
+                    <p class="produtos-lista-item-nome">Nome do Produto</p>
+                    <p class="produtos-lista-item-preco">R$ 30.00</p>
+                    <p class="produtos-lista-item-preco2">45.00</p>
+                    <div class="produtos-lista-item-hide">
+                    <div><i class="far fa-heart"></i></div>
+                    <div><i class="far fa-clipboard"></i></div>
+                    <div><i class="fas fa-random"></i></div>
+                    </div>
+                </li>
+                <li class="produtos-lista-item">
+                    <a class="produtos-lista-item-img" href="#">
+                    <img alt="Produto 4" src="img/home/nossos-produtos/produto-04.jpg">
+                    </a>
+                    <p class="produtos-lista-item-categoria">Categoria</p>
+                    <p class="produtos-lista-item-nome">Nome do Produto</p>
+                    <p class="produtos-lista-item-preco">R$ 30.00</p>
+                    <p class="produtos-lista-item-preco2">45.00</p>
+                    <div class="produtos-lista-item-hide">
+                    <div><i class="far fa-heart"></i></div>
+                    <div><i class="far fa-clipboard"></i></div>
+                    <div><i class="fas fa-random"></i></div>
+                    </div>
+                </li>
+                <li class="produtos-lista-item">
+                    <a class="produtos-lista-item-img" href="#">
+                    <img alt="Produto 5" src="img/home/nossos-produtos/produto-05.jpg">
+                    </a>
+                    <p class="produtos-lista-item-categoria">Categoria</p>
+                    <p class="produtos-lista-item-nome">Nome do Produto</p>
+                    <p class="produtos-lista-item-preco">R$ 30.00</p>
+                    <p class="produtos-lista-item-preco2">45.00</p>
+                    <div class="produtos-lista-item-hide">
+                    <div><i class="far fa-heart"></i></div>
+                    <div><i class="far fa-clipboard"></i></div>
+                    <div><i class="fas fa-random"></i></div>
+                    </div>
+                </li>
+                <li class="produtos-lista-item">
+                    <a class="produtos-lista-item-img" href="#">
+                    <img alt="Produto 6" src="img/home/nossos-produtos/produto-06.jpg">
+                    </a>
+                    <p class="produtos-lista-item-categoria">Categoria</p>
+                    <p class="produtos-lista-item-nome">Nome do Produto</p>
+                    <p class="produtos-lista-item-preco">R$ 30.00</p>
+                    <p class="produtos-lista-item-preco2">45.00</p>
+                    <div class="produtos-lista-item-hide">
+                    <div><i class="far fa-heart"></i></div>
+                    <div><i class="far fa-clipboard"></i></div>
+                    <div><i class="fas fa-random"></i></div>
+                    </div>
+               
+
+                </ul>  
+            
+            </div><!-- end .produtos-lista -->
+            
+            <div class="slide3">
+                <div class="slide3a">
+                    <div class="slide3a-bkg"></div>
+                    <div class="slide3-content">
+                        <p class="slide3-produto">Geleia de Morango 100% Natural com</p>
+                        <p class="slide3-descricao">50% de Desconto</p>
+                        <a class="slide3-botao">Comprar</a>
+                    </div>
+                </div>    
+                <div class="slide3b">
+                    <div class="slide3b-bkg"></div>
+                     <div class="slide3-content">
+                        <p class="slide3-produto">Geleia de Morango 100% Natural com</p>
+                        <p class="slide3-descricao">50% de Desconto</p>
+                        <a class="slide3-botao">Comprar</a>
+                    </div>
+                </div>    
+            </div>
+
+                      
+        </div><!-- end .mais-vendidos -->
+        
+        
+        <div class="outlet">
+            
+            <img class="background-img4b" alt="amêndoa" src="img/home/background-4b.jpg"><!-- end .background-img4b -->
+            
+            <h2>Outlet 100%</h2>
+            
+            <ul class="outlet-lista">
+                
+                <li class="outlet-item">
+                        <a class="outlet-item-img" href="#">
+                        <img alt="Produto 01" src="img/home/outlet/outlet-01.jpg">
+                        </a>
+                        <spam class="outlet-item-info">
+                        <p class="outlet-item-nome">Nome do Produto</p>
+                        <p class="outlet-item-preco">R$ 30.00</p>
+                        <p class="outlet-item-preco2">45.00</p>
+                        </spam>
+                </li>                    
+                <li class="outlet-item">
+                        <a class="outlet-item-img" href="#">
+                        <img alt="Produto 02" src="img/home/outlet/outlet-02.jpg">
+                        </a>
+                        <spam class="outlet-item-info">
+                        <p class="outlet-item-nome">Nome do Produto</p>
+                        <p class="outlet-item-preco">R$ 30.00</p>
+                        <p class="outlet-item-preco2">45.00</p>
+                        </spam>
+                </li>                    
+                <li class="outlet-item">
+                        <a class="outlet-item-img" href="#">
+                        <img alt="Produto 03" src="img/home/outlet/outlet-03.jpg">
+                        </a>
+                        <spam class="outlet-item-info">
+                        <p class="outlet-item-nome">Nome do Produto</p>
+                        <p class="outlet-item-preco">R$ 30.00</p>
+                        <p class="outlet-item-preco2">45.00</p>
+                        </spam>
+                </li>                    
+                <li class="outlet-item">
+                        <a class="outlet-item-img" href="#">
+                        <img alt="Produto 04" src="img/home/outlet/outlet-04.jpg">
+                        </a>
+                        <spam class="outlet-item-info">
+                        <p class="outlet-item-nome">Nome do Produto</p>
+                        <p class="outlet-item-preco">R$ 30.00</p>
+                        <p class="outlet-item-preco2">45.00</p>
+                        </spam>
+                </li>                    
+                <li class="outlet-item">
+                        <a class="outlet-item-img" href="#">
+                        <img alt="Produto 05" src="img/home/outlet/outlet-05.jpg">
+                        </a>
+                        <spam class="outlet-item-info">
+                        <p class="outlet-item-nome">Nome do Produto</p>
+                        <p class="outlet-item-preco">R$ 30.00</p>
+                        <p class="outlet-item-preco2">45.00</p>
+                        </spam>
+                </li>                    
+                <li class="outlet-item">
+                        <a class="outlet-item-img" href="#">
+                       <img alt="Produto 06" src="img/home/outlet/outlet-06.jpg">
+                        </a>
+                        <spam class="outlet-item-info">
+                        <p class="outlet-item-nome">Nome do Produto</p>
+                        <p class="outlet-item-preco">R$ 30.00</p>
+                        <p class="outlet-item-preco2">45.00</p>
+                        </spam>
+                </li>                    
+                <li class="outlet-item">
+                        <a class="outlet-item-img" href="#">
+                        <img alt="Produto 07" src="img/home/outlet/outlet-07.jpg">
+                        </a>
+                        <spam class="outlet-item-info">
+                        <p class="outlet-item-nome">Nome do Produto</p>
+                        <p class="outlet-item-preco">R$ 30.00</p>
+                        <p class="outlet-item-preco2">45.00</p>
+                        </spam>
+                </li>                    
+                <li class="outlet-item">
+                        <a class="outlet-item-img" href="#">
+                        <img alt="Produto 08" src="img/home/outlet/outlet-08.jpg">
+                        </a>
+                        <spam class="outlet-item-info">
+                        <p class="outlet-item-nome">Nome do Produto</p>
+                        <p class="outlet-item-preco">R$ 30.00</p>
+                        <p class="outlet-item-preco2">45.00</p>
+                        </spam>
+                </li>                    
+                <li class="outlet-item">
+                        <a class="outlet-item-img" href="#">
+                        <img alt="Produto 09" src="img/home/outlet/outlet-01.jpg">
+                        </a>
+                        <spam class="outlet-item-info">
+                        <p class="outlet-item-nome">Nome do Produto</p>
+                        <p class="outlet-item-preco">R$ 30.00</p>
+                        <p class="outlet-item-preco2">45.00</p>
+                        </spam>
+                </li>                    
+                <li class="outlet-item">
+                        <a class="outlet-item-img" href="#">
+                        <img alt="Produto 10" src="img/home/outlet/outlet-02.jpg">
+                        </a>
+                        <spam class="outlet-item-info">
+                        <p class="outlet-item-nome">Nome do Produto</p>
+                        <p class="outlet-item-preco">R$ 30.00</p>
+                        <p class="outlet-item-preco2">45.00</p>
+                        </spam>
+                </li>    
+                
+                
+            </ul>
+            
+            
+           
+            
+        </div><!-- final do outlet -->
+         <div class="slide4">
+             
+            <div class="slide4-left"><img class="background-img4b" alt="amêndoa" src="img/home/slides/slide4-left.svg"></div>  
+             
+             <div class="slide4-center">
+             <p>Chás</p>
+             <a>Ir p/ seção</a>
+             </div> 
+             
+             <div class="slide4-right"><img class="background-img4b" alt="amêndoa" src="img/home/slides/slide4-right.svg"></div>
+             
+        </div>
+    </main>
+    
+    <footer class="footer">
+        <img class="background-img5" alt="hortelã" src="img/home/background-5.jpg"><!-- end .background-img5 -->
+        
+        <div class="footer-itens">
+            
+            <div class="footer-entrega">
+            
+                <div class="footer-entrega-item">
+                        <img alt="entrega grátis" src="img/footer/benefit-entrega-gratis.png">
+                        <p><strong>ENTREGA GRÁTIS</strong></p>
+                        <p>Nas compras acima de R$199,00</p>
+
+                </div>
+                
+                
+                <div class="footer-entrega-item">
+                        <img alt="entrega garantida" src="img/footer/benefit-entrega-rapida.png">
+                        <p><strong>ENTREGA GARANTIDA</strong></p>
+                        <p>O seu dinheiro de volta</p>
+                </div>
+                
+                
+                <div class="footer-entrega-item">
+                        <img alt="entrega grátis" src="img/footer/benefit-entrega-gratis.png">
+                        <p><strong>SEGURANÇA</strong></p>
+                        <p>Pagamento 100% seguro</p>
+                </div>
+                
+                
+                <div class="footer-entrega-item">
+                        <img alt="entrega grátis" src="img/footer/benefit-entrega-gratis.png">
+                        <p><strong>SUPORTE 24H</strong></p>
+                        <p>Atendimento personalizado</p>
+                </div>
+                
+                
+            </div> <!-- end footer entrega grátis acima de R$199,00 -->
+            
+            <div class="footer-logos">     
+                <img alt="100% orgânico" src="img/header_&_footer/logo-100%25-organico.png">
+                <img alt="whatsapp" src="img/footer/whatsapp.png">
+                <img alt="eco jardim" src="img/footer/eco-jardim.png">
+            </div> <!-- end footer logos -->
+            
+            <div class="footer-about">
+                <p class="footer-about-email">Email: contato@100%organicos.com.br</p>
+                <div class="footer-about-social">
+                <a class="footer-about-social-item"><i class="fab fa-facebook-f"></i></a>
+                <a class="footer-about-social-item"><i class="fab fa-instagram"></i></a>
+                <a class="footer-about-social-item"><i class="fab fa-twitter"></i></a>
+                <a class="footer-about-social-item"><i class="fas fa-at"></i></a>
+                </div>
+            </div> <!-- end footer about -->
+            
+            <div class="footer-newsletter">
+                <div>
+                <p class="footer-newsletter-text1">Assine nossa Newsletter</p>
+                <p class="footer-newsletter-text2">Receba atualizações por e-mail sobre nossa loja e ofertas especiais</p>
+                </div>
+                
+                
+                <div class="footer-newsletter-inscrever">                
+                <input id="placeholder-text" placeholder="Digite seu e-mail aqui." class="footer-newsletter-emailfield">
+                <a class="footer-newsletter-emailbutton">Inscrever</a>
+                </div>
+                
+            </div><!-- end footer newsletter -->
+            
+            <div class="footer-copyright-bandeiras">
+                <p class="footer-copyright">Copyright © 2020 100% Orgânicos - Todos os direitos reservados</p>
+                <img class="footer-bandeiras" alt="bandeiras formas de pagamento" src="img/footer/payment.png">
+            </div><!-- end footer copyright&footer -->
+            
+        </div><!-- end footer itens -->
+        
+    </footer>
+      
+
+  </body>
+
+
+<script>
+   
+    function menu_categorias(){
+    
+ 
+        
+ var x = document.getElementById("categorias-menu");
+        
+
+  if ((x.style.display === "none")) {
+        
+        x.style.display = 'block';
+        
+
+        showMenu(x);
+      
+        
+      
+  } else {
+    x.style.display = 'none';
+    x.style.opacity = '0'
+  }
+        
+    }
+    
+    
+                           
+function loopDone() {
+   console.log('The loop is done!');
+}
+
+function showMenu(x){
+    
+    
+for(let i = 1; i <= 10; i++) {
+   setTimeout(()=>{
+
+      x.style.opacity = i/10;
+      
+      if(i === 10){ 
+         setTimeout(loopDone, 30); // update this
+      }
+   },i * 30);
+}
+    
+    }
+  
+    
+    
+</script> <!-- Dropdown menu -->
+    
+</html>

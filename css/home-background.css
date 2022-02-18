@@ -1,0 +1,110 @@
+.bkg-after-header{
+    height: 345px;
+    background-color: white;
+}
+
+
+.background-img1{
+    position: absolute;
+    top:-39px;
+    z-index: -1;
+    
+    object-fit: none;
+    object-position: right;
+    height:724px;
+    width: 37.91%;
+        
+}
+
+.background-img1 img{
+    
+       /* height:724px;
+        width: 728px;*/
+}
+
+.background-img2{
+    position: absolute;
+    right:0;
+    top:-1px;
+    z-index: -1;
+    
+    object-fit: none;
+    object-position: left;
+    height:958px;
+    width: 23.07%;
+
+}
+
+.background-img2 img{
+    object-fit: none;
+    object-position: left;
+    height:958px;
+    width: 443px;
+    
+}
+
+.background-img3{
+    
+    position: absolute;
+    bottom: -414px;
+    z-index: -1;
+    
+    object-fit: none;
+    object-position: right;
+    height: 710px;
+    width: 18.07%;
+        
+}
+
+@media (max-width: 469px){
+    .background-img3{display: none;}
+}
+
+.background-img4a{
+    
+    position: absolute;
+    right:0;
+    bottom: 0px;
+    z-index: -1;
+    
+    object-fit: none;
+    object-position: left;
+    height:336px;
+    width: 13.54%; 
+    
+        
+}
+
+
+.background-img4b{
+    
+    position: absolute;
+    right:0;
+    top: -6px;
+    z-index: -1;
+    
+    object-fit: none;
+    object-position: left;
+    height:336px;
+    width: 13.54%; 
+}
+
+/*.background-img5{
+
+DEFINIDO NO CSS DO FOOTER
+
+    position: absolute;
+    bottom: 0px;
+    z-index: -1;
+    
+    object-fit: none;
+    object-position: right;
+    height:772px;
+    width: 15.72%;
+        
+}*/
+
+.background-img5 img{
+/*        height:772px;
+        width: 302px;*/
+}
